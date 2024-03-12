@@ -50,7 +50,7 @@ const patronDeModulo = (() => {
               </div>
             </div>
         `;
-        if ((sel_animal = "Leon")) {
+        if (sel_animal == "Leon") {
           const leon = new Leon(
             x.name,
             sel_edad,
@@ -59,7 +59,7 @@ const patronDeModulo = (() => {
             x.sonido
           );
           console.log(leon);
-        } else if ((sel_animal = "Lobo")) {
+        } else if (sel_animal == "Lobo") {
           const lobo = new Lobo(
             x.name,
             sel_edad,
@@ -68,7 +68,7 @@ const patronDeModulo = (() => {
             x.sonido
           );
           console.log(lobo);
-        } else if ((sel_animal = "Oso")) {
+        } else if (sel_animal == "Oso") {
           const oso = new Oso(
             x.name,
             sel_edad,
@@ -77,7 +77,7 @@ const patronDeModulo = (() => {
             x.sonido
           );
           console.log(oso);
-        } else if ((sel_animal = "Serpiente")) {
+        } else if (sel_animal == "Serpiente") {
           const serpiente = new Serpiente(
             x.name,
             sel_edad,
@@ -86,7 +86,7 @@ const patronDeModulo = (() => {
             x.sonido
           );
           console.log(serpiente);
-        } else if ((sel_animal = "Aguila")) {
+        } else if (sel_animal == "Aguila") {
           const aguila = new Aguila(
             x.name,
             sel_edad,
